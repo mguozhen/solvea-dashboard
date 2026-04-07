@@ -1,5 +1,5 @@
 {
-  "generated": "2026-04-07 13:19",
+  "generated": "2026-04-07 14:50",
   "date": "2026-04-07",
   "voice": {
     "total_calls": 0,
@@ -11,19 +11,26 @@
     "recent": []
   },
   "email": {
-    "apollo_total": 1315,
-    "apollo_today": 116,
+    "apollo_total": 1459,
+    "apollo_today": 260,
     "sl_sent": 989,
     "bounced": 0,
     "followups": 0
   },
   "tracking": {
-    "tracked": 679,
-    "opens": 294,
+    "tracked": 823,
+    "opens": 358,
     "clicks": 109,
     "replies": 0,
     "booked": 0,
     "hot_leads": [
+      {
+        "email": "stuart@rubininsurance.com",
+        "subject": "Rubin Insurance Agency, LLC: AI receptio",
+        "sent_at": "2026-04-07 20:07",
+        "opens": 3,
+        "clicks": 0
+      },
       {
         "email": "tling@eslaw.com",
         "subject": "Erickson Sederstrom Law Firm: AI recepti",
@@ -35,6 +42,13 @@
         "email": "jorden@overland-properties.com",
         "subject": "Yarden, quick question about missed call",
         "sent_at": "2026-04-07 20:05",
+        "opens": 2,
+        "clicks": 0
+      },
+      {
+        "email": "martyvalor@sfgdallas.com",
+        "subject": "Agency of Valor: AI receptionist, $0.05/",
+        "sent_at": "2026-04-07 20:08",
         "opens": 2,
         "clicks": 0
       },
@@ -63,6 +77,34 @@
         "email": "stacy@northportpt.com",
         "subject": "Stacy, quick question about missed calls",
         "sent_at": "2026-04-07 20:16",
+        "opens": 2,
+        "clicks": 0
+      },
+      {
+        "email": "mpinkel@hayesmechanical.com",
+        "subject": "Hayes Mechanical: AI receptionist, $0.05",
+        "sent_at": "2026-04-07 21:29",
+        "opens": 2,
+        "clicks": 0
+      },
+      {
+        "email": "lnicolas@jaxhumane.org",
+        "subject": "Missed calls cost Jacksonville Humane So",
+        "sent_at": "2026-04-07 21:41",
+        "opens": 2,
+        "clicks": 0
+      },
+      {
+        "email": "kclouston@gillettept.com",
+        "subject": "Missed calls cost Gillette Physical Ther",
+        "sent_at": "2026-04-07 21:48",
+        "opens": 2,
+        "clicks": 0
+      },
+      {
+        "email": "erin.osner@100percentdoc.com",
+        "subject": "100% Chiropractic Franchise: AI receptio",
+        "sent_at": "2026-04-07 21:49",
         "opens": 2,
         "clicks": 0
       },
@@ -119,48 +161,6 @@
         "email": "karen@hireroos.com",
         "subject": "Missed calls cost HireRoos real money ev",
         "sent_at": "2026-04-07 19:59",
-        "opens": 1,
-        "clicks": 0
-      },
-      {
-        "email": "kh@ebonylaw.com",
-        "subject": "Missed calls cost Ebony Law real money e",
-        "sent_at": "2026-04-07 20:00",
-        "opens": 1,
-        "clicks": 0
-      },
-      {
-        "email": "tighe@tortx.law",
-        "subject": "Tighe, quick question about missed calls",
-        "sent_at": "2026-04-07 20:00",
-        "opens": 1,
-        "clicks": 0
-      },
-      {
-        "email": "tamara.salmon@mu.summersphc.com",
-        "subject": "Tamara, quick question about missed call",
-        "sent_at": "2026-04-07 20:01",
-        "opens": 1,
-        "clicks": 0
-      },
-      {
-        "email": "cat@greenboxair.com",
-        "subject": "Missed calls cost GreenBox Home Services",
-        "sent_at": "2026-04-07 20:01",
-        "opens": 1,
-        "clicks": 0
-      },
-      {
-        "email": "ray@platinumservicepros.com",
-        "subject": "Missed calls cost Platinum Service Pros ",
-        "sent_at": "2026-04-07 20:02",
-        "opens": 1,
-        "clicks": 0
-      },
-      {
-        "email": "rosie@sunvista.com",
-        "subject": "Missed calls cost NAI SunVista Commercia",
-        "sent_at": "2026-04-07 20:02",
         "opens": 1,
         "clicks": 0
       }

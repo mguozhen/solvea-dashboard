@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Solvea Outreach Dashboard</title>
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: #0f1117; color: #e1e4e8; min-height: 100vh; }
+.header { background: linear-gradient(135deg, #1a1f36 0%, #0d1025 100%); padding: 24px 32px; border-bottom: 1px solid #2d3348; display: flex; justify-content: space-between; align-items: center; }
+.header h1 { font-size: 22px; font-weight: 600; color: #fff; }
+.header h1 span { color: #58a6ff; }
+.header .meta { font-size: 13px; color: #8b949e; }
+.header .live { display: inline-block; width: 8px; height: 8px; background: #3fb950; border-radius: 50%; margin-right: 6px; animation: pulse 2s infinite; }
+@keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.4; } }
+.grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(340px, 1fr)); gap: 16px; padding: 24px 32px; max-width: 1400px; }
+.card { background: #161b22; border: 1px solid #30363d; border-radius: 12px; padding: 20px; }
+.card h2 { font-size: 14px; font-weight: 600; color: #8b949e; text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 16px; }
+.card h2 .icon { margin-right: 8px; }
+.metric-row { display: flex; justify-content: space-between; align-items: center; padding: 8px 0; border-bottom: 1px solid #21262d; }
+.metric-row:last-child { border-bottom: none; }
+.metric-label { font-size: 14px; color: #c9d1d9; }
+.metric-value { font-size: 18px; font-weight: 700; color: #fff; }
+.metric-value.highlight { color: #58a6ff; }
+.metric-value.green { color: #3fb950; }
+.metric-value.yellow { color: #d29922; }
+.metric-value.red { color: #f85149; }
+.metric-sub { font-size: 12px; color: #8b949e; margin-left: 6px; font-weight: 400; }
+.big-number { font-size: 48px; font-weight: 800; color: #fff; line-height: 1; }
+.big-number .unit { font-size: 16px; color: #8b949e; font-weight: 400; }
+.funnel { margin-top: 12px; }
+.funnel-step { display: flex; align-items: center; margin-bottom: 8px; }
+.funnel-bar { height: 28px; background: #1f6feb; border-radius: 4px; min-width: 4px; transition: width 0.5s; display: flex; align-items: center; padding: 0 10px; }
+.funnel-bar.sent { background: #388bfd; }
+.funnel-bar.opened { background: #3fb950; }
+.funnel-bar.clicked { background: #d29922; }
+.funnel-bar.replied { background: #f85149; }
+.funnel-bar.booked { background: #a371f7; }
+.funnel-label { font-size: 12px; color: #fff; white-space: nowrap; }
+.funnel-stat { font-size: 12px; color: #8b949e; margin-left: 12px; white-space: nowrap; min-width: 80px; }
+.hot-lead { display: flex; justify-content: space-between; padding: 6px 0; border-bottom: 1px solid #21262d; font-size: 13px; }
+.hot-lead:last-child { border-bottom: none; }
+.hot-lead .email { color: #58a6ff; }
+.hot-lead .stats { color: #8b949e; }
+.badge { display: inline-block; padding: 2px 8px; border-radius: 10px; font-size: 11px; font-weight: 600; }
+.badge.active { background: #0d419d; color: #58a6ff; }
+.badge.warning { background: #3d2e00; color: #d29922; }
+.footer { text-align: center; padding: 16px; color: #484f58; font-size: 12px; }
+.full-width { grid-column: 1 / -1; }
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1><span>Solvea</span> Outreach Dashboard</h1>
+  <div class="meta"><span class="live"></span>Last updated: <span id="timestamp">Loading...</span></div>
+</div>
+
+<div class="grid">
+
+  <!-- Grand Total -->
+  <div class="card">
+    <h2><span class="icon">📊</span>Total Outreach</h2>
+    <div style="text-align:center; padding: 12px 0;">
+      <div class="big-number" id="grand-total">0</div>
+      <div style="color:#8b949e; font-size:13px; margin-top:4px;">total touches across all channels</div>
+    </div>
+    <div class="metric-row"><span class="metric-label">Emails</span><span class="metric-value" id="total-emails">0</span></div>
+    <div class="metric-row"><span class="metric-label">Voice Calls</span><span class="metric-value" id="total-voice">0</span></div>
+    <div class="metric-row"><span class="metric-label">SMS</span><span class="metric-value" id="total-sms">0</span></div>
+    <div class="metric-row"><span class="metric-label">PR Pitches</span><span class="metric-value" id="total-pr">0</span></div>
+  </div>
+
+  <!-- Voice SDR -->
+  <div class="card">
+    <h2><span class="icon">📞</span>Voice SDR</h2>
+    <div class="metric-row"><span class="metric-label">Calls Today</span><span class="metric-value highlight" id="sdr-today-calls">0</span></div>
+    <div class="metric-row"><span class="metric-label">Picked Up Today</span><span class="metric-value green" id="sdr-today-picked">0</span></div>
+    <div class="metric-row"><span class="metric-label">SMS Sent Today</span><span class="metric-value" id="sdr-today-sms">0</span></div>
+    <div class="metric-row"><span class="metric-label">Connect Rate</span><span class="metric-value yellow" id="sdr-connect-rate">N/A</span></div>
+    <div class="metric-row"><span class="metric-label">Total Calls</span><span class="metric-value" id="sdr-total-calls">0</span></div>
+    <div class="metric-row"><span class="metric-label">Total Picked Up</span><span class="metric-value" id="sdr-total-picked">0</span></div>
+  </div>
+
+  <!-- Email Funnel -->
+  <div class="card">
+    <h2><span class="icon">📧</span>Email Conversion Funnel</h2>
+    <div class="funnel" id="funnel"></div>
+  </div>
+
+  <!-- Email Stats -->
+  <div class="card">
+    <h2><span class="icon">📬</span>Email Outreach</h2>
+    <div class="metric-row"><span class="metric-label">Apollo Sent</span><span class="metric-value" id="apollo-total">0</span></div>
+    <div class="metric-row"><span class="metric-label">Apollo Today</span><span class="metric-value highlight" id="apollo-today">0</span></div>
+    <div class="metric-row"><span class="metric-label">StoreLeads Sent</span><span class="metric-value" id="sl-sent">0</span></div>
+    <div class="metric-row"><span class="metric-label">Open Rate</span><span class="metric-value green" id="open-rate">N/A</span></div>
+    <div class="metric-row"><span class="metric-label">Click Rate</span><span class="metric-value yellow" id="click-rate">N/A</span></div>
+    <div class="metric-row"><span class="metric-label">Follow-ups Sent</span><span class="metric-value" id="followups">0</span></div>
+    <div class="metric-row"><span class="metric-label">Bounced Blocked</span><span class="metric-value red" id="bounced">0</span></div>
+  </div>
+
+  <!-- PR -->
+  <div class="card">
+    <h2><span class="icon">📰</span>PR Media</h2>
+    <div class="metric-row"><span class="metric-label">Pitched</span><span class="metric-value highlight" id="pr-pitched">0</span></div>
+    <div class="metric-row"><span class="metric-label">Target Database</span><span class="metric-value" id="pr-targets">0</span></div>
+    <div class="metric-row"><span class="metric-label">Coverage</span><span class="metric-value yellow" id="pr-coverage">0%</span></div>
+    <div class="metric-row"><span class="metric-label">Replies</span><span class="metric-value" id="pr-replies">0</span></div>
+  </div>
+
+  <!-- Hot Leads -->
+  <div class="card full-width">
+    <h2><span class="icon">🔥</span>Intent Signals (Hot Leads) <span class="badge active" id="hot-count">0</span></h2>
+    <div id="hot-leads-list">
+      <div style="color:#8b949e; font-size:13px; padding:12px 0;">Loading...</div>
+    </div>
+  </div>
+
+  <!-- Recent Voice SDR Calls -->
+  <div class="card full-width">
+    <h2><span class="icon">📋</span>Recent Voice SDR Calls</h2>
+    <div id="recent-calls">
+      <div style="color:#8b949e; font-size:13px; padding:12px 0;">No calls yet</div>
+    </div>
+  </div>
+
+</div>
+
+<div class="footer">Solvea Outreach Dashboard — MailOutreachAgent — Auto-refreshes every 60s</div>
+
+<script>
+const DATA_URL = 'data.json';
+
+function pct(n, d) { return d > 0 ? (n / d * 100).toFixed(1) + '%' : 'N/A'; }
+function comma(n) { return n.toLocaleString(); }
+
+function renderFunnel(data) {
+  const el = document.getElementById('funnel');
+  const steps = [
+    { label: 'Sent', value: data.tracked, color: 'sent' },
+    { label: 'Opened', value: data.opens, color: 'opened' },
+    { label: 'Clicked', value: data.clicks, color: 'clicked' },
+    { label: 'Replied', value: data.replies || 0, color: 'replied' },
+    { label: 'Booked', value: data.booked || 0, color: 'booked' },
+  ];
+  const maxVal = Math.max(...steps.map(s => s.value), 1);
+  el.innerHTML = steps.map(s => {
+    const w = Math.max((s.value / maxVal) * 100, 2);
+    return `<div class="funnel-step">
+      <div class="funnel-bar ${s.color}" style="width:${w}%">
+        <span class="funnel-label">${s.label}</span>
+      </div>
+      <span class="funnel-stat">${comma(s.value)} (${pct(s.value, steps[0].value)})</span>
+    </div>`;
+  }).join('');
+}
+
+function renderHotLeads(leads) {
+  const el = document.getElementById('hot-leads-list');
+  document.getElementById('hot-count').textContent = leads.length;
+  if (!leads.length) {
+    el.innerHTML = '<div style="color:#8b949e; font-size:13px; padding:12px 0;">No identifiable hot leads yet. Tracking starts from next email batch.</div>';
+    return;
+  }
+  el.innerHTML = leads.map(l => `
+    <div class="hot-lead">
+      <span class="email">${l.email}</span>
+      <span class="stats">${l.opens} opens, ${l.clicks} clicks — sent ${l.sent_at}</span>
+    </div>
+  `).join('');
+}
+
+function renderRecentCalls(calls) {
+  const el = document.getElementById('recent-calls');
+  if (!calls.length) {
+    el.innerHTML = '<div style="color:#8b949e; font-size:13px; padding:12px 0;">No calls yet today</div>';
+    return;
+  }
+  el.innerHTML = calls.map(c => {
+    const icon = c.picked_up ? '✅' : '❌';
+    const sms = c.sms_sent ? '📱 SMS sent' : '';
+    return `<div class="hot-lead">
+      <span>${icon} ${c.name} <span style="color:#8b949e">(${c.industry})</span></span>
+      <span class="stats">${c.picked_up ? 'Answered' : 'No answer'} ${sms} — ${c.ts}</span>
+    </div>`;
+  }).join('');
+}
+
+async function loadData() {
+  try {
+    const res = await fetch(DATA_URL + '?t=' + Date.now());
+    const d = await res.json();
+
+    document.getElementById('timestamp').textContent = d.generated;
+
+    // Grand total
+    const totalEmails = d.email.apollo_total + d.email.sl_sent;
+    const grand = totalEmails + d.voice.total_calls + d.voice.total_sms + d.pr.pitched;
+    document.getElementById('grand-total').textContent = comma(grand);
+    document.getElementById('total-emails').textContent = comma(totalEmails);
+    document.getElementById('total-voice').textContent = comma(d.voice.total_calls);
+    document.getElementById('total-sms').textContent = comma(d.voice.total_sms);
+    document.getElementById('total-pr').textContent = comma(d.pr.pitched);
+
+    // Voice SDR
+    document.getElementById('sdr-today-calls').textContent = d.voice.today_calls;
+    document.getElementById('sdr-today-picked').textContent = d.voice.today_picked;
+    document.getElementById('sdr-today-sms').textContent = d.voice.today_sms;
+    document.getElementById('sdr-connect-rate').textContent = d.voice.total_calls > 0 ? pct(d.voice.total_picked, d.voice.total_calls) : 'N/A';
+    document.getElementById('sdr-total-calls').textContent = d.voice.total_calls;
+    document.getElementById('sdr-total-picked').textContent = d.voice.total_picked;
+
+    // Email
+    document.getElementById('apollo-total').textContent = comma(d.email.apollo_total);
+    document.getElementById('apollo-today').textContent = '+' + d.email.apollo_today;
+    document.getElementById('sl-sent').textContent = comma(d.email.sl_sent);
+    document.getElementById('open-rate').textContent = pct(d.tracking.opens, d.tracking.tracked);
+    document.getElementById('click-rate').textContent = pct(d.tracking.clicks, d.tracking.tracked);
+    document.getElementById('followups').textContent = d.email.followups;
+    document.getElementById('bounced').textContent = d.email.bounced;
+
+    // PR
+    document.getElementById('pr-pitched').textContent = d.pr.pitched;
+    document.getElementById('pr-targets').textContent = comma(d.pr.total_targets);
+    document.getElementById('pr-coverage').textContent = pct(d.pr.pitched, d.pr.total_targets);
+    document.getElementById('pr-replies').textContent = d.pr.replies || 0;
+
+    // Funnel
+    renderFunnel(d.tracking);
+
+    // Hot leads
+    renderHotLeads(d.tracking.hot_leads || []);
+
+    // Recent calls
+    renderRecentCalls(d.voice.recent || []);
+
+  } catch (e) {
+    console.error('Failed to load data:', e);
+  }
+}
+
+loadData();
+setInterval(loadData, 60000); // Refresh every 60s
+</script>
+</body>
+</html>

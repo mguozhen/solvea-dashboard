@@ -1,6 +1,6 @@
 {
-  "generated": "2026-04-06 22:57",
-  "date": "2026-04-06",
+  "generated": "2026-04-07 13:19",
+  "date": "2026-04-07",
   "voice": {
     "total_calls": 0,
     "total_picked": 0,
@@ -11,19 +11,160 @@
     "recent": []
   },
   "email": {
-    "apollo_total": 1199,
-    "apollo_today": 273,
+    "apollo_total": 1315,
+    "apollo_today": 116,
     "sl_sent": 989,
     "bounced": 0,
     "followups": 0
   },
   "tracking": {
-    "tracked": 563,
-    "opens": 235,
+    "tracked": 679,
+    "opens": 294,
     "clicks": 109,
     "replies": 0,
     "booked": 0,
-    "hot_leads": []
+    "hot_leads": [
+      {
+        "email": "tling@eslaw.com",
+        "subject": "Erickson Sederstrom Law Firm: AI recepti",
+        "sent_at": "2026-04-07 19:58",
+        "opens": 2,
+        "clicks": 0
+      },
+      {
+        "email": "jorden@overland-properties.com",
+        "subject": "Yarden, quick question about missed call",
+        "sent_at": "2026-04-07 20:05",
+        "opens": 2,
+        "clicks": 0
+      },
+      {
+        "email": "mrousseau@rousseauinsurance.com",
+        "subject": "Rousseau Insurance Agency: AI receptioni",
+        "sent_at": "2026-04-07 20:08",
+        "opens": 2,
+        "clicks": 0
+      },
+      {
+        "email": "marc.pickard@cbtech.support",
+        "subject": "Marc, quick question about missed calls ",
+        "sent_at": "2026-04-07 20:08",
+        "opens": 2,
+        "clicks": 0
+      },
+      {
+        "email": "jyoung@picoiv.com",
+        "subject": "Joe, quick question about missed calls a",
+        "sent_at": "2026-04-07 20:11",
+        "opens": 2,
+        "clicks": 0
+      },
+      {
+        "email": "stacy@northportpt.com",
+        "subject": "Stacy, quick question about missed calls",
+        "sent_at": "2026-04-07 20:16",
+        "opens": 2,
+        "clicks": 0
+      },
+      {
+        "email": "dburkhardt@vfhc.org",
+        "subject": "Missed calls cost Valley Family Health C",
+        "sent_at": "2026-04-07 19:56",
+        "opens": 1,
+        "clicks": 0
+      },
+      {
+        "email": "lfarrow@vfhc.org",
+        "subject": "Lynsey, quick question about missed call",
+        "sent_at": "2026-04-07 19:56",
+        "opens": 1,
+        "clicks": 0
+      },
+      {
+        "email": "cnelson@vfhc.org",
+        "subject": "Missed calls cost Valley Family Health C",
+        "sent_at": "2026-04-07 19:57",
+        "opens": 1,
+        "clicks": 0
+      },
+      {
+        "email": "lhoman@lschc.org",
+        "subject": "Lake Superior Community Health Center: A",
+        "sent_at": "2026-04-07 19:58",
+        "opens": 1,
+        "clicks": 0
+      },
+      {
+        "email": "amesia@nortonlaw.com",
+        "subject": "Missed calls cost The Norton Law Firm re",
+        "sent_at": "2026-04-07 19:58",
+        "opens": 1,
+        "clicks": 0
+      },
+      {
+        "email": "jburnett@elrodpope.com",
+        "subject": "Jennifer, quick question about missed ca",
+        "sent_at": "2026-04-07 19:58",
+        "opens": 1,
+        "clicks": 0
+      },
+      {
+        "email": "chelsea@hamidehlawfirm.com",
+        "subject": "Missed calls cost Hamideh Law Firm real ",
+        "sent_at": "2026-04-07 19:59",
+        "opens": 1,
+        "clicks": 0
+      },
+      {
+        "email": "karen@hireroos.com",
+        "subject": "Missed calls cost HireRoos real money ev",
+        "sent_at": "2026-04-07 19:59",
+        "opens": 1,
+        "clicks": 0
+      },
+      {
+        "email": "kh@ebonylaw.com",
+        "subject": "Missed calls cost Ebony Law real money e",
+        "sent_at": "2026-04-07 20:00",
+        "opens": 1,
+        "clicks": 0
+      },
+      {
+        "email": "tighe@tortx.law",
+        "subject": "Tighe, quick question about missed calls",
+        "sent_at": "2026-04-07 20:00",
+        "opens": 1,
+        "clicks": 0
+      },
+      {
+        "email": "tamara.salmon@mu.summersphc.com",
+        "subject": "Tamara, quick question about missed call",
+        "sent_at": "2026-04-07 20:01",
+        "opens": 1,
+        "clicks": 0
+      },
+      {
+        "email": "cat@greenboxair.com",
+        "subject": "Missed calls cost GreenBox Home Services",
+        "sent_at": "2026-04-07 20:01",
+        "opens": 1,
+        "clicks": 0
+      },
+      {
+        "email": "ray@platinumservicepros.com",
+        "subject": "Missed calls cost Platinum Service Pros ",
+        "sent_at": "2026-04-07 20:02",
+        "opens": 1,
+        "clicks": 0
+      },
+      {
+        "email": "rosie@sunvista.com",
+        "subject": "Missed calls cost NAI SunVista Commercia",
+        "sent_at": "2026-04-07 20:02",
+        "opens": 1,
+        "clicks": 0
+      }
+    ]
   },
   "pr": {
     "pitched": 66,

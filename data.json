@@ -1,84 +1,14 @@
 {
-  "generated": "2026-04-07 17:49",
+  "generated": "2026-04-07 18:05",
   "date": "2026-04-07",
   "voice": {
-    "total_calls": 15,
-    "total_picked": 14,
-    "total_sms": 15,
-    "today_calls": 15,
-    "today_picked": 14,
-    "today_sms": 15,
+    "total_calls": 10,
+    "total_picked": 8,
+    "total_sms": 10,
+    "today_calls": 22,
+    "today_picked": 19,
+    "today_sms": 22,
     "recent": [
-      {
-        "ts": "2026-04-07 17:15:47",
-        "name": "Gu-Wi Gutters & Windows",
-        "phone": "+12062226512",
-        "industry": "hvac",
-        "batch_id": 74,
-        "picked_up": true,
-        "success": true,
-        "sms_sent": true
-      },
-      {
-        "ts": "2026-04-07 17:17:58",
-        "name": "Austin Roofing Company & Water Damage",
-        "phone": "+15128206505",
-        "industry": "hvac",
-        "batch_id": 75,
-        "picked_up": true,
-        "success": true,
-        "sms_sent": true
-      },
-      {
-        "ts": "2026-04-07 17:21:11",
-        "name": "Bob's Repair",
-        "phone": "+17022894261",
-        "industry": "hvac",
-        "batch_id": 76,
-        "picked_up": true,
-        "success": false,
-        "sms_sent": true
-      },
-      {
-        "ts": "2026-04-07 17:23:39",
-        "name": "Vivax Pros",
-        "phone": "+17203319735",
-        "industry": "hvac",
-        "batch_id": 77,
-        "picked_up": true,
-        "success": true,
-        "sms_sent": true
-      },
-      {
-        "ts": "2026-04-07 17:26:54",
-        "name": "AA Window, Roof & Gutter Cleaning",
-        "phone": "+14258213814",
-        "industry": "hvac",
-        "batch_id": 78,
-        "picked_up": true,
-        "success": false,
-        "sms_sent": true
-      },
-      {
-        "ts": "2026-04-07 17:28:01",
-        "name": "Ace Roofing Company",
-        "phone": "+15128367663",
-        "industry": "hvac",
-        "batch_id": 79,
-        "picked_up": true,
-        "success": true,
-        "sms_sent": true
-      },
-      {
-        "ts": "2026-04-07 17:30:26",
-        "name": "4 Seasons Home Inspections",
-        "phone": "+12063168665",
-        "industry": "hvac",
-        "batch_id": 80,
-        "picked_up": true,
-        "success": true,
-        "sms_sent": true
-      },
       {
         "ts": "2026-04-07 17:32:35",
         "name": "Moss Busters",
@@ -130,31 +60,101 @@
         "sms_sent": true
       },
       {
-        "ts": "2026-04-07 17:44:22",
-        "name": "American Home Contractors",
-        "phone": "+13012097000",
-        "industry": "hvac",
-        "batch_id": 86,
+        "ts": "2026-04-07 17:44:04",
+        "name": "Jeffrey Taylor",
+        "phone": "+1 423-586-6812",
+        "industry": "lawyer",
+        "batch_id": 87,
         "picked_up": true,
         "success": true,
         "sms_sent": true
       },
       {
-        "ts": "2026-04-07 17:47:20",
-        "name": "The Repair Guys",
-        "phone": "+16025017653",
-        "industry": "hvac",
-        "batch_id": 89,
+        "ts": "2026-04-07 17:46:49",
+        "name": "Jerry Quinn",
+        "phone": "+1 203-877-5400",
+        "industry": "lawyer",
+        "batch_id": 88,
         "picked_up": true,
         "success": true,
         "sms_sent": true
       },
       {
-        "ts": "2026-04-07 17:49:56",
-        "name": "Formula Roofing and Remodeling",
-        "phone": "+13036008696",
-        "industry": "hvac",
-        "batch_id": 91,
+        "ts": "2026-04-07 17:49:08",
+        "name": "Andy Eaton",
+        "phone": "+1 404-400-2078",
+        "industry": "lawyer",
+        "batch_id": 90,
+        "picked_up": true,
+        "success": true,
+        "sms_sent": true
+      },
+      {
+        "ts": "2026-04-07 17:50:08",
+        "name": "Howard Raphaelson",
+        "phone": "+1 212-268-3222",
+        "industry": "lawyer",
+        "batch_id": 92,
+        "picked_up": true,
+        "success": true,
+        "sms_sent": true
+      },
+      {
+        "ts": "2026-04-07 17:52:20",
+        "name": "Christopher Gibbs",
+        "phone": "+1 843-379-2330",
+        "industry": "lawyer",
+        "batch_id": 93,
+        "picked_up": true,
+        "success": true,
+        "sms_sent": true
+      },
+      {
+        "ts": "2026-04-07 17:54:17",
+        "name": "Caren Pollack",
+        "phone": "+1 317-660-4880",
+        "industry": "lawyer",
+        "batch_id": 94,
+        "picked_up": true,
+        "success": true,
+        "sms_sent": true
+      },
+      {
+        "ts": "2026-04-07 17:57:30",
+        "name": "Irturk",
+        "phone": "+90 216 988 6060",
+        "industry": "lawyer",
+        "batch_id": 95,
+        "picked_up": false,
+        "success": false,
+        "sms_sent": true
+      },
+      {
+        "ts": "2026-04-07 18:00:45",
+        "name": "Larry Crabtree",
+        "phone": "+1 858-597-6000",
+        "industry": "lawyer",
+        "batch_id": 96,
+        "picked_up": false,
+        "success": false,
+        "sms_sent": true
+      },
+      {
+        "ts": "2026-04-07 18:02:33",
+        "name": "James Long",
+        "phone": "+1 315-991-8000",
+        "industry": "lawyer",
+        "batch_id": 97,
+        "picked_up": true,
+        "success": true,
+        "sms_sent": true
+      },
+      {
+        "ts": "2026-04-07 18:05:24",
+        "name": "Bradley Stamm",
+        "phone": "+1 716-631-5767",
+        "industry": "lawyer",
+        "batch_id": 98,
         "picked_up": true,
         "success": true,
         "sms_sent": true

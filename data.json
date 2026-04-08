@@ -1,184 +1,47 @@
 {
-  "generated": "2026-04-07 18:36",
-  "date": "2026-04-07",
+  "generated": "2026-04-08 09:39",
+  "date": "2026-04-08",
   "voice": {
     "total_calls": 30,
     "total_picked": 27,
     "total_sms": 30,
-    "today_calls": 42,
-    "today_picked": 38,
-    "today_sms": 42,
-    "recent": [
-      {
-        "ts": "2026-04-07 18:14:40",
-        "name": "Paresh Kapuriya",
-        "phone": "+1 760-338-0062",
-        "industry": "hvac",
-        "batch_id": 104,
-        "picked_up": true,
-        "success": true,
-        "sms_sent": true
-      },
-      {
-        "ts": "2026-04-07 18:15:13",
-        "name": "Jamie Miller",
-        "phone": "+1 214-748-3647",
-        "industry": "hvac",
-        "batch_id": 105,
-        "picked_up": true,
-        "success": true,
-        "sms_sent": true
-      },
-      {
-        "ts": "2026-04-07 18:17:21",
-        "name": "Bob Snyder",
-        "phone": "+1 518-783-7066",
-        "industry": "hvac",
-        "batch_id": 106,
-        "picked_up": true,
-        "success": true,
-        "sms_sent": true
-      },
-      {
-        "ts": "2026-04-07 18:18:48",
-        "name": "James Batson",
-        "phone": "+1 256-542-9201",
-        "industry": "hvac",
-        "batch_id": 107,
-        "picked_up": true,
-        "success": true,
-        "sms_sent": true
-      },
-      {
-        "ts": "2026-04-07 18:20:34",
-        "name": "Brett Pagan",
-        "phone": "+1 800-213-3019",
-        "industry": "hvac",
-        "batch_id": 108,
-        "picked_up": true,
-        "success": true,
-        "sms_sent": true
-      },
-      {
-        "ts": "2026-04-07 18:23:44",
-        "name": "Oltjon Kaja",
-        "phone": "+381 63 8633558",
-        "industry": "dentist",
-        "batch_id": 109,
-        "picked_up": false,
-        "success": false,
-        "sms_sent": true
-      },
-      {
-        "ts": "2026-04-07 18:24:34",
-        "name": "Ruan Westraad",
-        "phone": "+1 800-827-1560",
-        "industry": "dentist",
-        "batch_id": 110,
-        "picked_up": true,
-        "success": true,
-        "sms_sent": true
-      },
-      {
-        "ts": "2026-04-07 18:27:05",
-        "name": "Deidra Rondeno",
-        "phone": "+1 404-942-0086",
-        "industry": "dentist",
-        "batch_id": 111,
-        "picked_up": true,
-        "success": true,
-        "sms_sent": true
-      },
-      {
-        "ts": "2026-04-07 18:27:38",
-        "name": "Bashir Mohsen",
-        "phone": "+1 201-216-9901",
-        "industry": "dentist",
-        "batch_id": 112,
-        "picked_up": true,
-        "success": true,
-        "sms_sent": true
-      },
-      {
-        "ts": "2026-04-07 18:29:05",
-        "name": "Nuwan Wickramasekera",
-        "phone": "+1 855-322-4247",
-        "industry": "dentist",
-        "batch_id": 113,
-        "picked_up": true,
-        "success": true,
-        "sms_sent": true
-      },
-      {
-        "ts": "2026-04-07 18:30:52",
-        "name": "Sumesh Mani",
-        "phone": "+91 77367 67367",
-        "industry": "dentist",
-        "batch_id": 114,
-        "picked_up": true,
-        "success": true,
-        "sms_sent": true
-      },
-      {
-        "ts": "2026-04-07 18:31:56",
-        "name": "Jessica Plata",
-        "phone": "+1 754-300-8929",
-        "industry": "dentist",
-        "batch_id": 115,
-        "picked_up": true,
-        "success": true,
-        "sms_sent": true
-      },
-      {
-        "ts": "2026-04-07 18:33:30",
-        "name": "Gregory Skinner",
-        "phone": "+1 856-662-4930",
-        "industry": "dentist",
-        "batch_id": 116,
-        "picked_up": true,
-        "success": true,
-        "sms_sent": true
-      },
-      {
-        "ts": "2026-04-07 18:34:11",
-        "name": "Katie Shackleford",
-        "phone": "+61 3 5974 2339",
-        "industry": "dentist",
-        "batch_id": 117,
-        "picked_up": true,
-        "success": true,
-        "sms_sent": true
-      },
-      {
-        "ts": "2026-04-07 18:36:20",
-        "name": "Gloria Canseco",
-        "phone": "+1 210-220-2300",
-        "industry": "dentist",
-        "batch_id": 118,
-        "picked_up": true,
-        "success": true,
-        "sms_sent": true
-      }
-    ]
+    "today_calls": 0,
+    "today_picked": 0,
+    "today_sms": 0,
+    "recent": []
   },
   "email": {
-    "apollo_total": 1459,
-    "apollo_today": 260,
+    "apollo_total": 1557,
+    "apollo_today": 98,
     "sl_sent": 989,
     "bounced": 0,
     "followups": 0
   },
   "tracking": {
-    "tracked": 823,
-    "opens": 361,
+    "tracked": 921,
+    "opens": 415,
     "clicks": 109,
     "replies": 0,
     "booked": 0,
     "hot_leads": [
       {
+        "email": "jorden@overland-properties.com",
+        "subject": "Yarden, quick question about missed call",
+        "sent_at": "2026-04-07 20:05",
+        "opens": 3,
+        "clicks": 0
+      },
+      {
         "email": "stuart@rubininsurance.com",
         "subject": "Rubin Insurance Agency, LLC: AI receptio",
         "sent_at": "2026-04-07 20:07",
+        "opens": 3,
+        "clicks": 0
+      },
+      {
+        "email": "jyoung@picoiv.com",
+        "subject": "Joe, quick question about missed calls a",
+        "sent_at": "2026-04-07 20:11",
         "opens": 3,
         "clicks": 0
       },
@@ -190,9 +53,23 @@
         "clicks": 0
       },
       {
+        "email": "iris@samel-ins.com",
+        "subject": "Missed calls cost Samel Insurance Agency",
+        "sent_at": "2026-04-07 21:35",
+        "opens": 3,
+        "clicks": 0
+      },
+      {
         "email": "erin.osner@100percentdoc.com",
         "subject": "100% Chiropractic Franchise: AI receptio",
         "sent_at": "2026-04-07 21:49",
+        "opens": 3,
+        "clicks": 0
+      },
+      {
+        "email": "kjimenez@doralhw.org",
+        "subject": "Missed calls cost Doral Health & Wellnes",
+        "sent_at": "2026-04-08 16:29",
         "opens": 3,
         "clicks": 0
       },
@@ -207,13 +84,6 @@
         "email": "ray@platinumservicepros.com",
         "subject": "Missed calls cost Platinum Service Pros ",
         "sent_at": "2026-04-07 20:02",
-        "opens": 2,
-        "clicks": 0
-      },
-      {
-        "email": "jorden@overland-properties.com",
-        "subject": "Yarden, quick question about missed call",
-        "sent_at": "2026-04-07 20:05",
         "opens": 2,
         "clicks": 0
       },
@@ -235,13 +105,6 @@
         "email": "marc.pickard@cbtech.support",
         "subject": "Marc, quick question about missed calls ",
         "sent_at": "2026-04-07 20:08",
-        "opens": 2,
-        "clicks": 0
-      },
-      {
-        "email": "jyoung@picoiv.com",
-        "subject": "Joe, quick question about missed calls a",
-        "sent_at": "2026-04-07 20:11",
         "opens": 2,
         "clicks": 0
       },
@@ -274,44 +137,30 @@
         "clicks": 0
       },
       {
+        "email": "keithf@howtomanage.com",
+        "subject": "Missed calls cost How To MANAGE a Small ",
+        "sent_at": "2026-04-08 16:20",
+        "opens": 2,
+        "clicks": 0
+      },
+      {
+        "email": "lynn.nahrgang@remcopa.com",
+        "subject": "Missed calls cost Remco Inc. real money ",
+        "sent_at": "2026-04-08 16:23",
+        "opens": 2,
+        "clicks": 0
+      },
+      {
+        "email": "brent@dickinsonmcneill.com",
+        "subject": "Missed calls cost Dickinson-McNeill Vete",
+        "sent_at": "2026-04-08 16:31",
+        "opens": 2,
+        "clicks": 0
+      },
+      {
         "email": "dburkhardt@vfhc.org",
         "subject": "Missed calls cost Valley Family Health C",
         "sent_at": "2026-04-07 19:56",
-        "opens": 1,
-        "clicks": 0
-      },
-      {
-        "email": "lfarrow@vfhc.org",
-        "subject": "Lynsey, quick question about missed call",
-        "sent_at": "2026-04-07 19:56",
-        "opens": 1,
-        "clicks": 0
-      },
-      {
-        "email": "cnelson@vfhc.org",
-        "subject": "Missed calls cost Valley Family Health C",
-        "sent_at": "2026-04-07 19:57",
-        "opens": 1,
-        "clicks": 0
-      },
-      {
-        "email": "lhoman@lschc.org",
-        "subject": "Lake Superior Community Health Center: A",
-        "sent_at": "2026-04-07 19:58",
-        "opens": 1,
-        "clicks": 0
-      },
-      {
-        "email": "amesia@nortonlaw.com",
-        "subject": "Missed calls cost The Norton Law Firm re",
-        "sent_at": "2026-04-07 19:58",
-        "opens": 1,
-        "clicks": 0
-      },
-      {
-        "email": "jburnett@elrodpope.com",
-        "subject": "Jennifer, quick question about missed ca",
-        "sent_at": "2026-04-07 19:58",
         "opens": 1,
         "clicks": 0
       }

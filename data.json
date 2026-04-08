@@ -1,14 +1,165 @@
 {
-  "generated": "2026-04-07 14:50",
+  "generated": "2026-04-07 17:49",
   "date": "2026-04-07",
   "voice": {
-    "total_calls": 0,
-    "total_picked": 0,
-    "total_sms": 0,
-    "today_calls": 0,
-    "today_picked": 0,
-    "today_sms": 0,
-    "recent": []
+    "total_calls": 15,
+    "total_picked": 14,
+    "total_sms": 15,
+    "today_calls": 15,
+    "today_picked": 14,
+    "today_sms": 15,
+    "recent": [
+      {
+        "ts": "2026-04-07 17:15:47",
+        "name": "Gu-Wi Gutters & Windows",
+        "phone": "+12062226512",
+        "industry": "hvac",
+        "batch_id": 74,
+        "picked_up": true,
+        "success": true,
+        "sms_sent": true
+      },
+      {
+        "ts": "2026-04-07 17:17:58",
+        "name": "Austin Roofing Company & Water Damage",
+        "phone": "+15128206505",
+        "industry": "hvac",
+        "batch_id": 75,
+        "picked_up": true,
+        "success": true,
+        "sms_sent": true
+      },
+      {
+        "ts": "2026-04-07 17:21:11",
+        "name": "Bob's Repair",
+        "phone": "+17022894261",
+        "industry": "hvac",
+        "batch_id": 76,
+        "picked_up": true,
+        "success": false,
+        "sms_sent": true
+      },
+      {
+        "ts": "2026-04-07 17:23:39",
+        "name": "Vivax Pros",
+        "phone": "+17203319735",
+        "industry": "hvac",
+        "batch_id": 77,
+        "picked_up": true,
+        "success": true,
+        "sms_sent": true
+      },
+      {
+        "ts": "2026-04-07 17:26:54",
+        "name": "AA Window, Roof & Gutter Cleaning",
+        "phone": "+14258213814",
+        "industry": "hvac",
+        "batch_id": 78,
+        "picked_up": true,
+        "success": false,
+        "sms_sent": true
+      },
+      {
+        "ts": "2026-04-07 17:28:01",
+        "name": "Ace Roofing Company",
+        "phone": "+15128367663",
+        "industry": "hvac",
+        "batch_id": 79,
+        "picked_up": true,
+        "success": true,
+        "sms_sent": true
+      },
+      {
+        "ts": "2026-04-07 17:30:26",
+        "name": "4 Seasons Home Inspections",
+        "phone": "+12063168665",
+        "industry": "hvac",
+        "batch_id": 80,
+        "picked_up": true,
+        "success": true,
+        "sms_sent": true
+      },
+      {
+        "ts": "2026-04-07 17:32:35",
+        "name": "Moss Busters",
+        "phone": "+15033516300",
+        "industry": "hvac",
+        "batch_id": 81,
+        "picked_up": true,
+        "success": true,
+        "sms_sent": true
+      },
+      {
+        "ts": "2026-04-07 17:34:30",
+        "name": "Tree Tx Services ",
+        "phone": "+15129396248",
+        "industry": "hvac",
+        "batch_id": 82,
+        "picked_up": true,
+        "success": true,
+        "sms_sent": true
+      },
+      {
+        "ts": "2026-04-07 17:35:15",
+        "name": "Dwell Roofing & Exteriors",
+        "phone": "+19729946386",
+        "industry": "hvac",
+        "batch_id": 83,
+        "picked_up": true,
+        "success": true,
+        "sms_sent": true
+      },
+      {
+        "ts": "2026-04-07 17:37:53",
+        "name": "Titan Siding, Windows and Exteriors",
+        "phone": "+15129448029",
+        "industry": "hvac",
+        "batch_id": 84,
+        "picked_up": true,
+        "success": true,
+        "sms_sent": true
+      },
+      {
+        "ts": "2026-04-07 17:41:09",
+        "name": "AA Brite 24/7",
+        "phone": "+15202005772",
+        "industry": "hvac",
+        "batch_id": 85,
+        "picked_up": false,
+        "success": false,
+        "sms_sent": true
+      },
+      {
+        "ts": "2026-04-07 17:44:22",
+        "name": "American Home Contractors",
+        "phone": "+13012097000",
+        "industry": "hvac",
+        "batch_id": 86,
+        "picked_up": true,
+        "success": true,
+        "sms_sent": true
+      },
+      {
+        "ts": "2026-04-07 17:47:20",
+        "name": "The Repair Guys",
+        "phone": "+16025017653",
+        "industry": "hvac",
+        "batch_id": 89,
+        "picked_up": true,
+        "success": true,
+        "sms_sent": true
+      },
+      {
+        "ts": "2026-04-07 17:49:56",
+        "name": "Formula Roofing and Remodeling",
+        "phone": "+13036008696",
+        "industry": "hvac",
+        "batch_id": 91,
+        "picked_up": true,
+        "success": true,
+        "sms_sent": true
+      }
+    ]
   },
   "email": {
     "apollo_total": 1459,
@@ -19,7 +170,7 @@
   },
   "tracking": {
     "tracked": 823,
-    "opens": 358,
+    "opens": 361,
     "clicks": 109,
     "replies": 0,
     "booked": 0,
@@ -32,9 +183,30 @@
         "clicks": 0
       },
       {
+        "email": "johnwu@treelanerealty.com",
+        "subject": "Missed calls cost Treelane Realty Group ",
+        "sent_at": "2026-04-07 21:33",
+        "opens": 3,
+        "clicks": 0
+      },
+      {
+        "email": "erin.osner@100percentdoc.com",
+        "subject": "100% Chiropractic Franchise: AI receptio",
+        "sent_at": "2026-04-07 21:49",
+        "opens": 3,
+        "clicks": 0
+      },
+      {
         "email": "tling@eslaw.com",
         "subject": "Erickson Sederstrom Law Firm: AI recepti",
         "sent_at": "2026-04-07 19:58",
+        "opens": 2,
+        "clicks": 0
+      },
+      {
+        "email": "ray@platinumservicepros.com",
+        "subject": "Missed calls cost Platinum Service Pros ",
+        "sent_at": "2026-04-07 20:02",
         "opens": 2,
         "clicks": 0
       },
@@ -102,13 +274,6 @@
         "clicks": 0
       },
       {
-        "email": "erin.osner@100percentdoc.com",
-        "subject": "100% Chiropractic Franchise: AI receptio",
-        "sent_at": "2026-04-07 21:49",
-        "opens": 2,
-        "clicks": 0
-      },
-      {
         "email": "dburkhardt@vfhc.org",
         "subject": "Missed calls cost Valley Family Health C",
         "sent_at": "2026-04-07 19:56",
@@ -147,20 +312,6 @@
         "email": "jburnett@elrodpope.com",
         "subject": "Jennifer, quick question about missed ca",
         "sent_at": "2026-04-07 19:58",
-        "opens": 1,
-        "clicks": 0
-      },
-      {
-        "email": "chelsea@hamidehlawfirm.com",
-        "subject": "Missed calls cost Hamideh Law Firm real ",
-        "sent_at": "2026-04-07 19:59",
-        "opens": 1,
-        "clicks": 0
-      },
-      {
-        "email": "karen@hireroos.com",
-        "subject": "Missed calls cost HireRoos real money ev",
-        "sent_at": "2026-04-07 19:59",
         "opens": 1,
         "clicks": 0
       }

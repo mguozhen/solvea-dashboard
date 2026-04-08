@@ -1,114 +1,14 @@
 {
-  "generated": "2026-04-07 18:20",
+  "generated": "2026-04-07 18:36",
   "date": "2026-04-07",
   "voice": {
-    "total_calls": 20,
-    "total_picked": 18,
-    "total_sms": 20,
-    "today_calls": 32,
-    "today_picked": 29,
-    "today_sms": 32,
+    "total_calls": 30,
+    "total_picked": 27,
+    "total_sms": 30,
+    "today_calls": 42,
+    "today_picked": 38,
+    "today_sms": 42,
     "recent": [
-      {
-        "ts": "2026-04-07 17:54:17",
-        "name": "Caren Pollack",
-        "phone": "+1 317-660-4880",
-        "industry": "lawyer",
-        "batch_id": 94,
-        "picked_up": true,
-        "success": true,
-        "sms_sent": true
-      },
-      {
-        "ts": "2026-04-07 17:57:30",
-        "name": "Irturk",
-        "phone": "+90 216 988 6060",
-        "industry": "lawyer",
-        "batch_id": 95,
-        "picked_up": false,
-        "success": false,
-        "sms_sent": true
-      },
-      {
-        "ts": "2026-04-07 18:00:45",
-        "name": "Larry Crabtree",
-        "phone": "+1 858-597-6000",
-        "industry": "lawyer",
-        "batch_id": 96,
-        "picked_up": false,
-        "success": false,
-        "sms_sent": true
-      },
-      {
-        "ts": "2026-04-07 18:02:33",
-        "name": "James Long",
-        "phone": "+1 315-991-8000",
-        "industry": "lawyer",
-        "batch_id": 97,
-        "picked_up": true,
-        "success": true,
-        "sms_sent": true
-      },
-      {
-        "ts": "2026-04-07 18:05:24",
-        "name": "Bradley Stamm",
-        "phone": "+1 716-631-5767",
-        "industry": "lawyer",
-        "batch_id": 98,
-        "picked_up": true,
-        "success": true,
-        "sms_sent": true
-      },
-      {
-        "ts": "2026-04-07 18:06:17",
-        "name": "Lusinei Guimaraes",
-        "phone": "+1 781-731-1511",
-        "industry": "hvac",
-        "batch_id": 99,
-        "picked_up": true,
-        "success": true,
-        "sms_sent": true
-      },
-      {
-        "ts": "2026-04-07 18:08:14",
-        "name": "Ryan Mplb",
-        "phone": "+1 804-687-5279",
-        "industry": "hvac",
-        "batch_id": 100,
-        "picked_up": true,
-        "success": true,
-        "sms_sent": true
-      },
-      {
-        "ts": "2026-04-07 18:10:14",
-        "name": "Hayley Howald",
-        "phone": "+1 317-255-4328",
-        "industry": "hvac",
-        "batch_id": 101,
-        "picked_up": true,
-        "success": true,
-        "sms_sent": true
-      },
-      {
-        "ts": "2026-04-07 18:12:09",
-        "name": "Dana Oakes",
-        "phone": "+1 716-372-3456",
-        "industry": "hvac",
-        "batch_id": 102,
-        "picked_up": true,
-        "success": true,
-        "sms_sent": true
-      },
-      {
-        "ts": "2026-04-07 18:13:15",
-        "name": "John Boyle",
-        "phone": "+1 215-604-6600",
-        "industry": "hvac",
-        "batch_id": 103,
-        "picked_up": true,
-        "success": true,
-        "sms_sent": true
-      },
       {
         "ts": "2026-04-07 18:14:40",
         "name": "Paresh Kapuriya",
@@ -155,6 +55,106 @@
         "phone": "+1 800-213-3019",
         "industry": "hvac",
         "batch_id": 108,
+        "picked_up": true,
+        "success": true,
+        "sms_sent": true
+      },
+      {
+        "ts": "2026-04-07 18:23:44",
+        "name": "Oltjon Kaja",
+        "phone": "+381 63 8633558",
+        "industry": "dentist",
+        "batch_id": 109,
+        "picked_up": false,
+        "success": false,
+        "sms_sent": true
+      },
+      {
+        "ts": "2026-04-07 18:24:34",
+        "name": "Ruan Westraad",
+        "phone": "+1 800-827-1560",
+        "industry": "dentist",
+        "batch_id": 110,
+        "picked_up": true,
+        "success": true,
+        "sms_sent": true
+      },
+      {
+        "ts": "2026-04-07 18:27:05",
+        "name": "Deidra Rondeno",
+        "phone": "+1 404-942-0086",
+        "industry": "dentist",
+        "batch_id": 111,
+        "picked_up": true,
+        "success": true,
+        "sms_sent": true
+      },
+      {
+        "ts": "2026-04-07 18:27:38",
+        "name": "Bashir Mohsen",
+        "phone": "+1 201-216-9901",
+        "industry": "dentist",
+        "batch_id": 112,
+        "picked_up": true,
+        "success": true,
+        "sms_sent": true
+      },
+      {
+        "ts": "2026-04-07 18:29:05",
+        "name": "Nuwan Wickramasekera",
+        "phone": "+1 855-322-4247",
+        "industry": "dentist",
+        "batch_id": 113,
+        "picked_up": true,
+        "success": true,
+        "sms_sent": true
+      },
+      {
+        "ts": "2026-04-07 18:30:52",
+        "name": "Sumesh Mani",
+        "phone": "+91 77367 67367",
+        "industry": "dentist",
+        "batch_id": 114,
+        "picked_up": true,
+        "success": true,
+        "sms_sent": true
+      },
+      {
+        "ts": "2026-04-07 18:31:56",
+        "name": "Jessica Plata",
+        "phone": "+1 754-300-8929",
+        "industry": "dentist",
+        "batch_id": 115,
+        "picked_up": true,
+        "success": true,
+        "sms_sent": true
+      },
+      {
+        "ts": "2026-04-07 18:33:30",
+        "name": "Gregory Skinner",
+        "phone": "+1 856-662-4930",
+        "industry": "dentist",
+        "batch_id": 116,
+        "picked_up": true,
+        "success": true,
+        "sms_sent": true
+      },
+      {
+        "ts": "2026-04-07 18:34:11",
+        "name": "Katie Shackleford",
+        "phone": "+61 3 5974 2339",
+        "industry": "dentist",
+        "batch_id": 117,
+        "picked_up": true,
+        "success": true,
+        "sms_sent": true
+      },
+      {
+        "ts": "2026-04-07 18:36:20",
+        "name": "Gloria Canseco",
+        "phone": "+1 210-220-2300",
+        "industry": "dentist",
+        "batch_id": 118,
         "picked_up": true,
         "success": true,
         "sms_sent": true

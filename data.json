@@ -1,114 +1,14 @@
 {
-  "generated": "2026-04-07 18:05",
+  "generated": "2026-04-07 18:20",
   "date": "2026-04-07",
   "voice": {
-    "total_calls": 10,
-    "total_picked": 8,
-    "total_sms": 10,
-    "today_calls": 22,
-    "today_picked": 19,
-    "today_sms": 22,
+    "total_calls": 20,
+    "total_picked": 18,
+    "total_sms": 20,
+    "today_calls": 32,
+    "today_picked": 29,
+    "today_sms": 32,
     "recent": [
-      {
-        "ts": "2026-04-07 17:32:35",
-        "name": "Moss Busters",
-        "phone": "+15033516300",
-        "industry": "hvac",
-        "batch_id": 81,
-        "picked_up": true,
-        "success": true,
-        "sms_sent": true
-      },
-      {
-        "ts": "2026-04-07 17:34:30",
-        "name": "Tree Tx Services ",
-        "phone": "+15129396248",
-        "industry": "hvac",
-        "batch_id": 82,
-        "picked_up": true,
-        "success": true,
-        "sms_sent": true
-      },
-      {
-        "ts": "2026-04-07 17:35:15",
-        "name": "Dwell Roofing & Exteriors",
-        "phone": "+19729946386",
-        "industry": "hvac",
-        "batch_id": 83,
-        "picked_up": true,
-        "success": true,
-        "sms_sent": true
-      },
-      {
-        "ts": "2026-04-07 17:37:53",
-        "name": "Titan Siding, Windows and Exteriors",
-        "phone": "+15129448029",
-        "industry": "hvac",
-        "batch_id": 84,
-        "picked_up": true,
-        "success": true,
-        "sms_sent": true
-      },
-      {
-        "ts": "2026-04-07 17:41:09",
-        "name": "AA Brite 24/7",
-        "phone": "+15202005772",
-        "industry": "hvac",
-        "batch_id": 85,
-        "picked_up": false,
-        "success": false,
-        "sms_sent": true
-      },
-      {
-        "ts": "2026-04-07 17:44:04",
-        "name": "Jeffrey Taylor",
-        "phone": "+1 423-586-6812",
-        "industry": "lawyer",
-        "batch_id": 87,
-        "picked_up": true,
-        "success": true,
-        "sms_sent": true
-      },
-      {
-        "ts": "2026-04-07 17:46:49",
-        "name": "Jerry Quinn",
-        "phone": "+1 203-877-5400",
-        "industry": "lawyer",
-        "batch_id": 88,
-        "picked_up": true,
-        "success": true,
-        "sms_sent": true
-      },
-      {
-        "ts": "2026-04-07 17:49:08",
-        "name": "Andy Eaton",
-        "phone": "+1 404-400-2078",
-        "industry": "lawyer",
-        "batch_id": 90,
-        "picked_up": true,
-        "success": true,
-        "sms_sent": true
-      },
-      {
-        "ts": "2026-04-07 17:50:08",
-        "name": "Howard Raphaelson",
-        "phone": "+1 212-268-3222",
-        "industry": "lawyer",
-        "batch_id": 92,
-        "picked_up": true,
-        "success": true,
-        "sms_sent": true
-      },
-      {
-        "ts": "2026-04-07 17:52:20",
-        "name": "Christopher Gibbs",
-        "phone": "+1 843-379-2330",
-        "industry": "lawyer",
-        "batch_id": 93,
-        "picked_up": true,
-        "success": true,
-        "sms_sent": true
-      },
       {
         "ts": "2026-04-07 17:54:17",
         "name": "Caren Pollack",
@@ -155,6 +55,106 @@
         "phone": "+1 716-631-5767",
         "industry": "lawyer",
         "batch_id": 98,
+        "picked_up": true,
+        "success": true,
+        "sms_sent": true
+      },
+      {
+        "ts": "2026-04-07 18:06:17",
+        "name": "Lusinei Guimaraes",
+        "phone": "+1 781-731-1511",
+        "industry": "hvac",
+        "batch_id": 99,
+        "picked_up": true,
+        "success": true,
+        "sms_sent": true
+      },
+      {
+        "ts": "2026-04-07 18:08:14",
+        "name": "Ryan Mplb",
+        "phone": "+1 804-687-5279",
+        "industry": "hvac",
+        "batch_id": 100,
+        "picked_up": true,
+        "success": true,
+        "sms_sent": true
+      },
+      {
+        "ts": "2026-04-07 18:10:14",
+        "name": "Hayley Howald",
+        "phone": "+1 317-255-4328",
+        "industry": "hvac",
+        "batch_id": 101,
+        "picked_up": true,
+        "success": true,
+        "sms_sent": true
+      },
+      {
+        "ts": "2026-04-07 18:12:09",
+        "name": "Dana Oakes",
+        "phone": "+1 716-372-3456",
+        "industry": "hvac",
+        "batch_id": 102,
+        "picked_up": true,
+        "success": true,
+        "sms_sent": true
+      },
+      {
+        "ts": "2026-04-07 18:13:15",
+        "name": "John Boyle",
+        "phone": "+1 215-604-6600",
+        "industry": "hvac",
+        "batch_id": 103,
+        "picked_up": true,
+        "success": true,
+        "sms_sent": true
+      },
+      {
+        "ts": "2026-04-07 18:14:40",
+        "name": "Paresh Kapuriya",
+        "phone": "+1 760-338-0062",
+        "industry": "hvac",
+        "batch_id": 104,
+        "picked_up": true,
+        "success": true,
+        "sms_sent": true
+      },
+      {
+        "ts": "2026-04-07 18:15:13",
+        "name": "Jamie Miller",
+        "phone": "+1 214-748-3647",
+        "industry": "hvac",
+        "batch_id": 105,
+        "picked_up": true,
+        "success": true,
+        "sms_sent": true
+      },
+      {
+        "ts": "2026-04-07 18:17:21",
+        "name": "Bob Snyder",
+        "phone": "+1 518-783-7066",
+        "industry": "hvac",
+        "batch_id": 106,
+        "picked_up": true,
+        "success": true,
+        "sms_sent": true
+      },
+      {
+        "ts": "2026-04-07 18:18:48",
+        "name": "James Batson",
+        "phone": "+1 256-542-9201",
+        "industry": "hvac",
+        "batch_id": 107,
+        "picked_up": true,
+        "success": true,
+        "sms_sent": true
+      },
+      {
+        "ts": "2026-04-07 18:20:34",
+        "name": "Brett Pagan",
+        "phone": "+1 800-213-3019",
+        "industry": "hvac",
+        "batch_id": 108,
         "picked_up": true,
         "success": true,
         "sms_sent": true

@@ -1,5 +1,5 @@
 {
-  "generated": "2026-04-08 09:39",
+  "generated": "2026-04-08 14:47",
   "date": "2026-04-08",
   "voice": {
     "total_calls": 30,
@@ -11,15 +11,15 @@
     "recent": []
   },
   "email": {
-    "apollo_total": 1557,
-    "apollo_today": 98,
+    "apollo_total": 1688,
+    "apollo_today": 229,
     "sl_sent": 989,
     "bounced": 0,
     "followups": 0
   },
   "tracking": {
-    "tracked": 921,
-    "opens": 415,
+    "tracked": 1052,
+    "opens": 473,
     "clicks": 109,
     "replies": 0,
     "booked": 0,
@@ -70,6 +70,20 @@
         "email": "kjimenez@doralhw.org",
         "subject": "Missed calls cost Doral Health & Wellnes",
         "sent_at": "2026-04-08 16:29",
+        "opens": 3,
+        "clicks": 0
+      },
+      {
+        "email": "brent@dickinsonmcneill.com",
+        "subject": "Missed calls cost Dickinson-McNeill Vete",
+        "sent_at": "2026-04-08 16:31",
+        "opens": 3,
+        "clicks": 0
+      },
+      {
+        "email": "jennah@superioranimalhospital.com",
+        "subject": "Missed calls cost Superior Animal Hospit",
+        "sent_at": "2026-04-08 21:41",
         "opens": 3,
         "clicks": 0
       },
@@ -148,20 +162,6 @@
         "subject": "Missed calls cost Remco Inc. real money ",
         "sent_at": "2026-04-08 16:23",
         "opens": 2,
-        "clicks": 0
-      },
-      {
-        "email": "brent@dickinsonmcneill.com",
-        "subject": "Missed calls cost Dickinson-McNeill Vete",
-        "sent_at": "2026-04-08 16:31",
-        "opens": 2,
-        "clicks": 0
-      },
-      {
-        "email": "dburkhardt@vfhc.org",
-        "subject": "Missed calls cost Valley Family Health C",
-        "sent_at": "2026-04-07 19:56",
-        "opens": 1,
         "clicks": 0
       }
     ]

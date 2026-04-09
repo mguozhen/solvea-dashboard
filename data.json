@@ -1,5 +1,5 @@
 {
-  "generated": "2026-04-09 09:44",
+  "generated": "2026-04-09 14:51",
   "date": "2026-04-09",
   "voice": {
     "total_calls": 30,
@@ -11,15 +11,15 @@
     "recent": []
   },
   "email": {
-    "apollo_total": 1797,
-    "apollo_today": 109,
+    "apollo_total": 1922,
+    "apollo_today": 234,
     "sl_sent": 989,
     "bounced": 0,
     "followups": 0
   },
   "tracking": {
-    "tracked": 1161,
-    "opens": 523,
+    "tracked": 1286,
+    "opens": 594,
     "clicks": 109,
     "replies": 0,
     "booked": 0,
@@ -116,6 +116,13 @@
         "clicks": 0
       },
       {
+        "email": "irene@amkinsurance.com",
+        "subject": "Irene, one question about AMK Insurance ",
+        "sent_at": "2026-04-09 21:40",
+        "opens": 3,
+        "clicks": 0
+      },
+      {
         "email": "tling@eslaw.com",
         "subject": "Erickson Sederstrom Law Firm: AI recepti",
         "sent_at": "2026-04-07 19:58",
@@ -154,13 +161,6 @@
         "email": "stacy@northportpt.com",
         "subject": "Stacy, quick question about missed calls",
         "sent_at": "2026-04-07 20:16",
-        "opens": 2,
-        "clicks": 0
-      },
-      {
-        "email": "mpinkel@hayesmechanical.com",
-        "subject": "Hayes Mechanical: AI receptionist, $0.05",
-        "sent_at": "2026-04-07 21:29",
         "opens": 2,
         "clicks": 0
       }

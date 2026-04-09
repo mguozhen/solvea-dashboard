@@ -1,6 +1,6 @@
 {
-  "generated": "2026-04-08 14:47",
-  "date": "2026-04-08",
+  "generated": "2026-04-09 09:44",
+  "date": "2026-04-09",
   "voice": {
     "total_calls": 30,
     "total_picked": 27,
@@ -11,19 +11,33 @@
     "recent": []
   },
   "email": {
-    "apollo_total": 1688,
-    "apollo_today": 229,
+    "apollo_total": 1797,
+    "apollo_today": 109,
     "sl_sent": 989,
     "bounced": 0,
     "followups": 0
   },
   "tracking": {
-    "tracked": 1052,
-    "opens": 473,
+    "tracked": 1161,
+    "opens": 523,
     "clicks": 109,
     "replies": 0,
     "booked": 0,
     "hot_leads": [
+      {
+        "email": "jennah@superioranimalhospital.com",
+        "subject": "Missed calls cost Superior Animal Hospit",
+        "sent_at": "2026-04-08 21:41",
+        "opens": 6,
+        "clicks": 0
+      },
+      {
+        "email": "lynn.nahrgang@remcopa.com",
+        "subject": "Missed calls cost Remco Inc. real money ",
+        "sent_at": "2026-04-08 16:23",
+        "opens": 4,
+        "clicks": 0
+      },
       {
         "email": "jorden@overland-properties.com",
         "subject": "Yarden, quick question about missed call",
@@ -81,9 +95,23 @@
         "clicks": 0
       },
       {
-        "email": "jennah@superioranimalhospital.com",
-        "subject": "Missed calls cost Superior Animal Hospit",
-        "sent_at": "2026-04-08 21:41",
+        "email": "christy@austinpatrick.com",
+        "subject": "Austin Patrick and Associates: AI recept",
+        "sent_at": "2026-04-08 21:32",
+        "opens": 3,
+        "clicks": 0
+      },
+      {
+        "email": "todd@beltinsurance.com",
+        "subject": "Belt Insurance Agency: AI receptionist, ",
+        "sent_at": "2026-04-08 21:35",
+        "opens": 3,
+        "clicks": 0
+      },
+      {
+        "email": "amanos@dentalassociates.com",
+        "subject": "Voicemail is costing Dental Associates m",
+        "sent_at": "2026-04-09 16:19",
         "opens": 3,
         "clicks": 0
       },
@@ -133,34 +161,6 @@
         "email": "mpinkel@hayesmechanical.com",
         "subject": "Hayes Mechanical: AI receptionist, $0.05",
         "sent_at": "2026-04-07 21:29",
-        "opens": 2,
-        "clicks": 0
-      },
-      {
-        "email": "lnicolas@jaxhumane.org",
-        "subject": "Missed calls cost Jacksonville Humane So",
-        "sent_at": "2026-04-07 21:41",
-        "opens": 2,
-        "clicks": 0
-      },
-      {
-        "email": "kclouston@gillettept.com",
-        "subject": "Missed calls cost Gillette Physical Ther",
-        "sent_at": "2026-04-07 21:48",
-        "opens": 2,
-        "clicks": 0
-      },
-      {
-        "email": "keithf@howtomanage.com",
-        "subject": "Missed calls cost How To MANAGE a Small ",
-        "sent_at": "2026-04-08 16:20",
-        "opens": 2,
-        "clicks": 0
-      },
-      {
-        "email": "lynn.nahrgang@remcopa.com",
-        "subject": "Missed calls cost Remco Inc. real money ",
-        "sent_at": "2026-04-08 16:23",
         "opens": 2,
         "clicks": 0
       }

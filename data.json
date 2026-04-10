@@ -1,26 +1,14 @@
 {
-  "generated": "2026-04-10 06:02",
+  "generated": "2026-04-10 06:04",
   "date": "2026-04-10",
   "voice": {
-    "total_calls": 66,
-    "total_picked": 58,
-    "total_sms": 64,
-    "today_calls": 36,
-    "today_picked": 33,
-    "today_sms": 34,
+    "total_calls": 67,
+    "total_picked": 59,
+    "total_sms": 65,
+    "today_calls": 37,
+    "today_picked": 34,
+    "today_sms": 35,
     "recent": [
-      {
-        "ts": "2026-04-10 05:36:46",
-        "name": "Michael Kopit",
-        "phone": "+18168784400",
-        "industry": "lawyer",
-        "batch_id": 183,
-        "picked_up": true,
-        "real_conversation": true,
-        "voicemail": false,
-        "success": true,
-        "sms_sent": true
-      },
       {
         "ts": "2026-04-10 05:38:07",
         "name": "Joel Franklin",
@@ -183,6 +171,18 @@
         "phone": "+16194223368",
         "industry": "dentist",
         "batch_id": 197,
+        "picked_up": true,
+        "real_conversation": true,
+        "voicemail": false,
+        "success": true,
+        "sms_sent": true
+      },
+      {
+        "ts": "2026-04-10 06:04:07",
+        "name": "Ron Archibeque",
+        "phone": "+15057502363",
+        "industry": "lawyer",
+        "batch_id": 198,
         "picked_up": true,
         "real_conversation": true,
         "voicemail": false,

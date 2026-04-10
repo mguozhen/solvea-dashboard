@@ -1,25 +1,86 @@
 {
-  "generated": "2026-04-09 14:51",
-  "date": "2026-04-09",
+  "generated": "2026-04-10 04:05",
+  "date": "2026-04-10",
   "voice": {
-    "total_calls": 30,
-    "total_picked": 27,
-    "total_sms": 30,
-    "today_calls": 0,
-    "today_picked": 0,
-    "today_sms": 0,
-    "recent": []
+    "total_calls": 35,
+    "total_picked": 32,
+    "total_sms": 35,
+    "today_calls": 5,
+    "today_picked": 5,
+    "today_sms": 5,
+    "recent": [
+      {
+        "ts": "2026-04-10 04:01:59",
+        "name": "Ryan Mplb",
+        "phone": "+18046875279",
+        "industry": "hvac",
+        "batch_id": 162,
+        "picked_up": true,
+        "real_conversation": true,
+        "voicemail": false,
+        "success": true,
+        "sms_sent": true
+      },
+      {
+        "ts": "2026-04-10 04:02:31",
+        "name": "John Boyle",
+        "phone": "+12156046600",
+        "industry": "hvac",
+        "batch_id": 163,
+        "picked_up": true,
+        "real_conversation": true,
+        "voicemail": false,
+        "success": true,
+        "sms_sent": true
+      },
+      {
+        "ts": "2026-04-10 04:03:01",
+        "name": "Jamie Miller",
+        "phone": "+12147483647",
+        "industry": "hvac",
+        "batch_id": 164,
+        "picked_up": true,
+        "real_conversation": true,
+        "voicemail": false,
+        "success": true,
+        "sms_sent": true
+      },
+      {
+        "ts": "2026-04-10 04:04:34",
+        "name": "James Batson",
+        "phone": "+12565429201",
+        "industry": "hvac",
+        "batch_id": 165,
+        "picked_up": true,
+        "real_conversation": true,
+        "voicemail": false,
+        "success": true,
+        "sms_sent": true
+      },
+      {
+        "ts": "2026-04-10 04:05:45",
+        "name": "Thomas Ford",
+        "phone": "+18655734200",
+        "industry": "hvac",
+        "batch_id": 166,
+        "picked_up": true,
+        "real_conversation": true,
+        "voicemail": false,
+        "success": true,
+        "sms_sent": true
+      }
+    ]
   },
   "email": {
     "apollo_total": 1922,
-    "apollo_today": 234,
+    "apollo_today": 0,
     "sl_sent": 989,
     "bounced": 0,
     "followups": 0
   },
   "tracking": {
     "tracked": 1286,
-    "opens": 594,
+    "opens": 595,
     "clicks": 109,
     "replies": 0,
     "booked": 0,
@@ -109,6 +170,13 @@
         "clicks": 0
       },
       {
+        "email": "margom@jollydentalgroup.com",
+        "subject": "Voicemail is costing PERSHING DENTAL CLI",
+        "sent_at": "2026-04-09 16:19",
+        "opens": 3,
+        "clicks": 0
+      },
+      {
         "email": "amanos@dentalassociates.com",
         "subject": "Voicemail is costing Dental Associates m",
         "sent_at": "2026-04-09 16:19",
@@ -119,6 +187,13 @@
         "email": "irene@amkinsurance.com",
         "subject": "Irene, one question about AMK Insurance ",
         "sent_at": "2026-04-09 21:40",
+        "opens": 3,
+        "clicks": 0
+      },
+      {
+        "email": "myriam@pacificphysicaltherapy.com",
+        "subject": "Voicemail is costing Pacific Physical Th",
+        "sent_at": "2026-04-09 21:49",
         "opens": 3,
         "clicks": 0
       },
@@ -147,20 +222,6 @@
         "email": "mrousseau@rousseauinsurance.com",
         "subject": "Rousseau Insurance Agency: AI receptioni",
         "sent_at": "2026-04-07 20:08",
-        "opens": 2,
-        "clicks": 0
-      },
-      {
-        "email": "marc.pickard@cbtech.support",
-        "subject": "Marc, quick question about missed calls ",
-        "sent_at": "2026-04-07 20:08",
-        "opens": 2,
-        "clicks": 0
-      },
-      {
-        "email": "stacy@northportpt.com",
-        "subject": "Stacy, quick question about missed calls",
-        "sent_at": "2026-04-07 20:16",
         "opens": 2,
         "clicks": 0
       }

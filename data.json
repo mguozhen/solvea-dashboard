@@ -1,13 +1,13 @@
 {
-  "generated": "2026-04-10 04:05",
+  "generated": "2026-04-10 05:08",
   "date": "2026-04-10",
   "voice": {
-    "total_calls": 35,
-    "total_picked": 32,
-    "total_sms": 35,
-    "today_calls": 5,
-    "today_picked": 5,
-    "today_sms": 5,
+    "total_calls": 38,
+    "total_picked": 34,
+    "total_sms": 38,
+    "today_calls": 8,
+    "today_picked": 7,
+    "today_sms": 8,
     "recent": [
       {
         "ts": "2026-04-10 04:01:59",
@@ -63,6 +63,42 @@
         "phone": "+18655734200",
         "industry": "hvac",
         "batch_id": 166,
+        "picked_up": true,
+        "real_conversation": true,
+        "voicemail": false,
+        "success": true,
+        "sms_sent": true
+      },
+      {
+        "ts": "2026-04-10 05:04:15",
+        "name": "Jesse Morgan",
+        "phone": "+18582040380",
+        "industry": "hvac",
+        "batch_id": 167,
+        "picked_up": false,
+        "real_conversation": false,
+        "voicemail": false,
+        "success": false,
+        "sms_sent": true
+      },
+      {
+        "ts": "2026-04-10 05:06:08",
+        "name": "Jim Rooney",
+        "phone": "+13172193066",
+        "industry": "hvac",
+        "batch_id": 168,
+        "picked_up": true,
+        "real_conversation": true,
+        "voicemail": false,
+        "success": true,
+        "sms_sent": true
+      },
+      {
+        "ts": "2026-04-10 05:08:12",
+        "name": "Benton Vince",
+        "phone": "+13166483199",
+        "industry": "hvac",
+        "batch_id": 169,
         "picked_up": true,
         "real_conversation": true,
         "voicemail": false,

@@ -1,13 +1,13 @@
 {
-  "generated": "2026-04-10 05:08",
+  "generated": "2026-04-10 05:10",
   "date": "2026-04-10",
   "voice": {
-    "total_calls": 38,
-    "total_picked": 34,
-    "total_sms": 38,
-    "today_calls": 8,
-    "today_picked": 7,
-    "today_sms": 8,
+    "total_calls": 39,
+    "total_picked": 35,
+    "total_sms": 39,
+    "today_calls": 9,
+    "today_picked": 8,
+    "today_sms": 9,
     "recent": [
       {
         "ts": "2026-04-10 04:01:59",
@@ -99,6 +99,18 @@
         "phone": "+13166483199",
         "industry": "hvac",
         "batch_id": 169,
+        "picked_up": true,
+        "real_conversation": true,
+        "voicemail": false,
+        "success": true,
+        "sms_sent": true
+      },
+      {
+        "ts": "2026-04-10 05:10:25",
+        "name": "Jonnie Wright",
+        "phone": "+15154804190",
+        "industry": "auto_repair",
+        "batch_id": 170,
         "picked_up": true,
         "real_conversation": true,
         "voicemail": false,

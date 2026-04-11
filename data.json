@@ -1,13 +1,13 @@
 {
-  "generated": "2026-04-11 04:05",
+  "generated": "2026-04-11 04:16",
   "date": "2026-04-11",
   "voice": {
-    "total_calls": 72,
-    "total_picked": 64,
-    "total_sms": 70,
-    "today_calls": 5,
-    "today_picked": 5,
-    "today_sms": 5,
+    "total_calls": 77,
+    "total_picked": 68,
+    "total_sms": 74,
+    "today_calls": 10,
+    "today_picked": 10,
+    "today_sms": 9,
     "recent": [
       {
         "ts": "2026-04-11 04:02:04",
@@ -68,6 +68,66 @@
         "voicemail": false,
         "success": true,
         "sms_sent": true
+      },
+      {
+        "ts": "2026-04-11 04:07:43",
+        "name": "Bashir Mohsen",
+        "phone": "+12012169901",
+        "industry": "dentist",
+        "batch_id": 218,
+        "picked_up": true,
+        "real_conversation": true,
+        "voicemail": false,
+        "success": true,
+        "sms_sent": true
+      },
+      {
+        "ts": "2026-04-11 04:09:10",
+        "name": "Paul Sost",
+        "phone": "+12693421171",
+        "industry": "dentist",
+        "batch_id": 219,
+        "picked_up": true,
+        "real_conversation": true,
+        "voicemail": false,
+        "success": true,
+        "sms_sent": true
+      },
+      {
+        "ts": "2026-04-11 04:11:29",
+        "name": "Doug Ramsey",
+        "phone": "+13178822882",
+        "industry": "dentist",
+        "batch_id": 220,
+        "picked_up": true,
+        "real_conversation": true,
+        "voicemail": false,
+        "success": true,
+        "sms_sent": true
+      },
+      {
+        "ts": "2026-04-11 04:13:39",
+        "name": "Hospitales Moviles",
+        "phone": "+14079567377",
+        "industry": "dentist",
+        "batch_id": 221,
+        "picked_up": true,
+        "real_conversation": true,
+        "voicemail": false,
+        "success": true,
+        "sms_sent": true
+      },
+      {
+        "ts": "2026-04-11 04:16:52",
+        "name": "Tamara Karelis",
+        "phone": "+16064363432",
+        "industry": "dentist",
+        "batch_id": 222,
+        "picked_up": true,
+        "real_conversation": false,
+        "voicemail": true,
+        "success": false,
+        "sms_sent": false
       }
     ]
   },

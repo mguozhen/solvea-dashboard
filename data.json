@@ -1,26 +1,14 @@
 {
-  "generated": "2026-04-11 05:31",
+  "generated": "2026-04-11 15:35",
   "date": "2026-04-11",
   "voice": {
     "total_calls": 117,
     "total_picked": 105,
     "total_sms": 114,
-    "today_calls": 50,
+    "today_calls": 51,
     "today_picked": 47,
     "today_sms": 49,
     "recent": [
-      {
-        "ts": "2026-04-11 05:02:39",
-        "name": "Stephen Duane",
-        "phone": "+19543974125",
-        "industry": "lawyer",
-        "batch_id": 248,
-        "picked_up": true,
-        "real_conversation": true,
-        "voicemail": false,
-        "success": true,
-        "sms_sent": true
-      },
       {
         "ts": "2026-04-11 05:04:25",
         "name": "Lenny Tomson",
@@ -28,10 +16,15 @@
         "industry": "lawyer",
         "batch_id": 249,
         "picked_up": true,
-        "real_conversation": true,
+        "real_conversation": false,
         "voicemail": false,
         "success": true,
-        "sms_sent": true
+        "sms_sent": true,
+        "backfill_status": "ok",
+        "twilio_sid": "CAc5551cf735d3a01b704c1d78f8818afd",
+        "twilio_status": "completed",
+        "duration_sec": 72,
+        "classification": "voicemail_likely"
       },
       {
         "ts": "2026-04-11 05:05:11",
@@ -40,10 +33,15 @@
         "industry": "lawyer",
         "batch_id": 250,
         "picked_up": true,
-        "real_conversation": true,
+        "real_conversation": false,
         "voicemail": false,
         "success": true,
-        "sms_sent": true
+        "sms_sent": true,
+        "backfill_status": "ok",
+        "twilio_sid": "CA031f93ed13cfe1b40ef9beb453bda536",
+        "twilio_status": "completed",
+        "duration_sec": 16,
+        "classification": "voicemail_drop"
       },
       {
         "ts": "2026-04-11 05:08:25",
@@ -52,10 +50,15 @@
         "industry": "lawyer",
         "batch_id": 251,
         "picked_up": true,
-        "real_conversation": true,
+        "real_conversation": false,
         "voicemail": false,
         "success": true,
-        "sms_sent": true
+        "sms_sent": true,
+        "backfill_status": "ok",
+        "twilio_sid": "CA75bac3506ed408ec1884c43a2fbd1e9f",
+        "twilio_status": "completed",
+        "duration_sec": 144,
+        "classification": "ambiguous"
       },
       {
         "ts": "2026-04-11 05:11:44",
@@ -67,7 +70,12 @@
         "real_conversation": false,
         "voicemail": false,
         "success": false,
-        "sms_sent": true
+        "sms_sent": true,
+        "backfill_status": "ok",
+        "twilio_sid": "CA50b7a91162ea8f438b321cdcafa5433c",
+        "twilio_status": "no-answer",
+        "duration_sec": 0,
+        "classification": "no-answer"
       },
       {
         "ts": "2026-04-11 05:12:49",
@@ -76,10 +84,15 @@
         "industry": "lawyer",
         "batch_id": 253,
         "picked_up": true,
-        "real_conversation": true,
+        "real_conversation": false,
         "voicemail": false,
         "success": true,
-        "sms_sent": true
+        "sms_sent": true,
+        "backfill_status": "ok",
+        "twilio_sid": "CA15f6ff996945f4413e678c4129fb04ec",
+        "twilio_status": "completed",
+        "duration_sec": 43,
+        "classification": "voicemail_likely"
       },
       {
         "ts": "2026-04-11 05:15:55",
@@ -88,10 +101,15 @@
         "industry": "lawyer",
         "batch_id": 254,
         "picked_up": true,
-        "real_conversation": true,
+        "real_conversation": false,
         "voicemail": false,
         "success": true,
-        "sms_sent": true
+        "sms_sent": true,
+        "backfill_status": "ok",
+        "twilio_sid": "CAcc1bf479d20c69647d2126e19825c16e",
+        "twilio_status": "completed",
+        "duration_sec": 166,
+        "classification": "ambiguous"
       },
       {
         "ts": "2026-04-11 05:16:29",
@@ -100,10 +118,15 @@
         "industry": "real_estate",
         "batch_id": 255,
         "picked_up": true,
-        "real_conversation": true,
+        "real_conversation": false,
         "voicemail": false,
         "success": true,
-        "sms_sent": true
+        "sms_sent": true,
+        "backfill_status": "ok",
+        "twilio_sid": "CA66d6a34aff011a8fc50eab1295be9427",
+        "twilio_status": "completed",
+        "duration_sec": 8,
+        "classification": "voicemail_drop"
       },
       {
         "ts": "2026-04-11 05:18:53",
@@ -112,10 +135,15 @@
         "industry": "real_estate",
         "batch_id": 256,
         "picked_up": true,
-        "real_conversation": true,
+        "real_conversation": false,
         "voicemail": false,
         "success": true,
-        "sms_sent": true
+        "sms_sent": true,
+        "backfill_status": "ok",
+        "twilio_sid": "CAa303b0117a14eb3d77c6edb590e3413f",
+        "twilio_status": "completed",
+        "duration_sec": 121,
+        "classification": "ambiguous"
       },
       {
         "ts": "2026-04-11 05:20:42",
@@ -124,10 +152,15 @@
         "industry": "real_estate",
         "batch_id": 257,
         "picked_up": true,
-        "real_conversation": true,
+        "real_conversation": false,
         "voicemail": false,
         "success": true,
-        "sms_sent": true
+        "sms_sent": true,
+        "backfill_status": "ok",
+        "twilio_sid": "CAa47974274905de0c97d11ef6ca6f6319",
+        "twilio_status": "completed",
+        "duration_sec": 60,
+        "classification": "voicemail_likely"
       },
       {
         "ts": "2026-04-11 05:21:25",
@@ -136,10 +169,15 @@
         "industry": "real_estate",
         "batch_id": 258,
         "picked_up": true,
-        "real_conversation": true,
+        "real_conversation": false,
         "voicemail": false,
         "success": true,
-        "sms_sent": true
+        "sms_sent": true,
+        "backfill_status": "ok",
+        "twilio_sid": "CA527a24c8fd6a60bb7ff8b1c069d26892",
+        "twilio_status": "completed",
+        "duration_sec": 9,
+        "classification": "voicemail_drop"
       },
       {
         "ts": "2026-04-11 05:24:09",
@@ -148,10 +186,15 @@
         "industry": "real_estate",
         "batch_id": 259,
         "picked_up": true,
-        "real_conversation": true,
+        "real_conversation": false,
         "voicemail": false,
         "success": true,
-        "sms_sent": true
+        "sms_sent": true,
+        "backfill_status": "ok",
+        "twilio_sid": "CAc55821f9e2d44684a984d6847776d769",
+        "twilio_status": "completed",
+        "duration_sec": 137,
+        "classification": "ambiguous"
       },
       {
         "ts": "2026-04-11 05:27:28",
@@ -163,7 +206,12 @@
         "real_conversation": false,
         "voicemail": false,
         "success": false,
-        "sms_sent": true
+        "sms_sent": true,
+        "backfill_status": "ok",
+        "twilio_sid": "CAed5facc7d493bb146e77f346e903dc4a",
+        "twilio_status": "busy",
+        "duration_sec": 0,
+        "classification": "busy"
       },
       {
         "ts": "2026-04-11 05:29:16",
@@ -172,10 +220,15 @@
         "industry": "hvac",
         "batch_id": 261,
         "picked_up": true,
-        "real_conversation": true,
+        "real_conversation": false,
         "voicemail": false,
         "success": true,
-        "sms_sent": true
+        "sms_sent": true,
+        "backfill_status": "ok",
+        "twilio_sid": "CA29c7c7edd6289521be23bad5a69504bc",
+        "twilio_status": "completed",
+        "duration_sec": 86,
+        "classification": "voicemail_likely"
       },
       {
         "ts": "2026-04-11 05:31:25",
@@ -184,10 +237,23 @@
         "industry": "hvac",
         "batch_id": 262,
         "picked_up": true,
-        "real_conversation": true,
+        "real_conversation": false,
         "voicemail": false,
         "success": true,
-        "sms_sent": true
+        "sms_sent": true,
+        "backfill_status": "ok",
+        "twilio_sid": "CA3e3d675e6fbbdfb001f64be320580455",
+        "twilio_status": "completed",
+        "duration_sec": 81,
+        "classification": "voicemail_likely"
+      },
+      {
+        "ts": "2026-04-11 15:35:51",
+        "name": "Guozhen",
+        "phone": "+16505076106",
+        "industry": "general",
+        "classification": "api_error",
+        "error": "400: {\"errmsg\":\"The outbound calls per day cannot exceed 50 per outbound number.\",\"errno\":400}"
       }
     ]
   },
